@@ -1,0 +1,31 @@
+section:
+  name: Sobre mí
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Software Developer en g.games
+
+summary: |
+  Soy desarrolladora de software con amplia experiencia en **desarrollo backend con Node** con un enfoque especial en las buenas prácticas y el testing.  
+  He trabajado en proyectos de integración con sistemas externos así como desarrollo de la parte backend de juegos de slot.  
+  También he realizado tareas de análisis y desarrollo en plataformas CRM y ERP en otros 
+  lenguajes entre ellos Java y PHP
+
+
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "alicia.palacios.serrano@gmail.com"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/alicia-palacios-serrano/"
+  - name: GitHub
+    icon: "fab fa-github"
+    url: "https://github.com/aliciapalacios82"
+
+resourceLinks:
+  - title: "Mi CV"
+    url: "files/CV_Alicia_Palacios_Serrano.pdf"

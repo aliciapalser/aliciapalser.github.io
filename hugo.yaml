@@ -1,0 +1,79 @@
+baseURL: https://aliciapalacios82.github.io/
+
+locale: en-us
+title: "Alicia Palacios Serrano"
+
+# Theme loaded as a Hugo module
+module:
+  imports:
+    - path: github.com/hugo-toha/toha/v4
+
+# English is the default language (/); Spanish lives under /es/
+defaultContentLanguage: en
+languages:
+  en:
+    label: English
+    weight: 1
+  es:
+    label: Español
+    weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+
+params:
+  # TODO: add your own background and logos under assets/images/site/ and set
+  # params.background and params.logo.{main,inverted,favicon}. Theme defaults are used meanwhile.
+
+  gitRepo: https://github.com/aliciapalacios82/aliciapalacios82.github.io
+  gitBranch: main
+
+  topNavbar:
+    maxVisibleSections: 6
+
+  features:
+    darkMode:
+      enable: true
+    portfolio:
+      enable: true
+    blog:
+      enable: false
+    notes:
+      enable: false
+    comment:
+      enable: false
+    analytics:
+      enabled: false
+    support:
+      enable: false
+    flags:
+      enable: true
+      flagOverwrites:
+        - languageCode: en
+          countryCode: gb
+    copyCodeButton:
+      enable: true
+
+  footer:
+    enable: true
+    navigation:
+      enable: true
+      customMenus: false
+    contactMe:
+      enable: true
+    credentials:
+      enable: true
+    newsletter:
+      enable: false
+    disclaimer:
+      enable: false

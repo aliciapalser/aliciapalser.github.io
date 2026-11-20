@@ -1,0 +1,63 @@
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: g.games
+      location: Seville, Spain
+      overview: Online casino games studio.
+    positions:
+      - designation: Full Stack Developer
+        start: Aug 2021
+        responsibilities:
+          - Third-party API integrations, from planning and prioritising tasks to development and progress tracking.
+          - Direct contact with clients to validate deliveries, follow up on testing and resolve issues.
+          - Node.js backends for slot games.
+          - Frontend of 99 Royale, a multiplayer slot game, built with reusable JavaScript components.
+          - Technical support to clients, tracking and resolving incidents.
+
+  - company:
+      name: redk - The CRM solutions company
+      location: Seville, Spain
+      overview: CRM and ERP consultancy (Zendesk, SugarCRM, Openbravo). 15 years in the company.
+    positions:
+      - designation: Full Stack Developer
+        start: Jan 2018
+        end: Aug 2021
+        responsibilities:
+          - Node.js APIs on AWS (API Gateway, SQS, Lambda) integrating Zendesk with RingCentral telephony, Mindsay chatbot, WhatsApp, Twilio SMS and external APIs.
+          - Analysis and development of Zendesk apps with the Zendesk App Framework (ZAF) and Bootstrap.
+          - Zendesk integrations with external systems (CRM, ERP, etc.).
+
+      - designation: QA Manager
+        start: Jul 2017
+        end: Aug 2021
+        responsibilities:
+          - Cucumber scenarios and manual tests for UATs.
+          - SonarCloud administration (quality profiles and rules) and team training.
+          - Code reviews of pull requests and mentoring the team on the process.
+          - Unit testing with PHPUnit and Jest; mentoring on clean code and refactoring.
+          - Quality control of technical project documentation.
+
+      - designation: SugarCRM Consultant
+        start: Jul 2015
+        end: Aug 2021
+        responsibilities:
+          - Analysis and development on SugarCRM, including migrations between versions.
+          - Unit tests with PHPUnit.
+          - Integrations with external systems through REST APIs.
+          - SugarCRM integration with Watson Campaign Automation through Scribe Online.
+
+      - designation: Openbravo ERP Consultant
+        start: Aug 2006
+        end: Jul 2015
+        responsibilities:
+          - Consulting and development for Openbravo implementations on PostgreSQL and Oracle 11g.
+          - Modular enhancements on Openbravo 2.50 and Openbravo 3; development of verticals and custom modules.
+          - Upgrades between Openbravo versions and customer support.
+          - Integrations with external applications through web services, including an e-invoicing service.
+          - Integration module between Openbravo and SugarCRM.

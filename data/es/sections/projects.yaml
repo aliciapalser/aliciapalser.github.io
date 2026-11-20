@@ -1,0 +1,62 @@
+section:
+  name: Proyectos
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+buttons:
+  - name: Todos
+    filter: "all"
+  - name: Juegos
+    filter: "games"
+  - name: Integraciones
+    filter: "integrations"
+  - name: Calidad
+    filter: "quality"
+  - name: CRM / ERP
+    filter: "crm-erp"
+
+# Ordenados del más reciente al más antiguo
+projects:
+  - name: 99 Royale
+    role: Desarrolladora Frontend
+    timeline: "2021 - Actualidad"
+    summary: Juego de slot multijugador. Frontend construido con componentes reutilizables en JavaScript.
+    tags: ["games", "javascript"]
+
+  - name: Backends de juegos de slot
+    role: Desarrolladora Backend
+    timeline: "2021 - Actualidad"
+    summary: Backends en Node.js para juegos de slot e integraciones con APIs de plataformas de juego de terceros.
+    tags: ["games", "integrations", "nodejs"]
+
+  - name: Integraciones omnicanal de Zendesk en AWS
+    role: Desarrolladora Full Stack
+    timeline: "2018 - 2021"
+    summary: APIs serverless en Node.js (API Gateway, SQS, Lambda) que conectan Zendesk con RingCentral, Mindsay, WhatsApp, Twilio (SMS) y APIs externas.
+    tags: ["integrations", "aws", "nodejs"]
+
+  - name: Apps de Zendesk (ZAF)
+    role: Desarrolladora Full Stack
+    timeline: "2018 - 2021"
+    summary: Apps personalizadas de Zendesk con Zendesk App Framework y Bootstrap, e integraciones con sistemas CRM y ERP.
+    tags: ["integrations", "crm-erp", "javascript"]
+
+  - name: Programa de calidad en redk
+    role: QA Manager
+    timeline: "2017 - 2021"
+    summary: Quality profiles en SonarCloud, revisión de pull requests, tests unitarios con Jest y PHPUnit, UATs con Cucumber y mentoring en clean code.
+    tags: ["quality"]
+
+  - name: SugarCRM ↔ Watson Campaign Automation
+    role: Consultora SugarCRM
+    timeline: "2015 - 2021"
+    summary: Integración de automatización de marketing mediante Scribe Online, además de migraciones de versión de SugarCRM e integraciones REST.
+    tags: ["crm-erp", "integrations"]
+
+  - name: Módulo de integración Openbravo ↔ SugarCRM
+    role: Consultora Openbravo ERP
+    timeline: "2006 - 2015"
+    summary: Módulo que sincroniza Openbravo ERP con SugarCRM, junto con la integración de factura electrónica, verticales y módulos personalizados para Openbravo 3.
+    tags: ["crm-erp", "integrations", "java"]

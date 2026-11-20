@@ -1,0 +1,63 @@
+section:
+  name: Experiencia
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: g.games
+      location: Sevilla, España
+      overview: Estudio de juegos de casino online.
+    positions:
+      - designation: Desarrolladora Full Stack
+        start: Ago 2021
+        responsibilities:
+          - Integraciones con APIs de terceros, desde la organización y priorización de tareas hasta el desarrollo y el seguimiento de su avance.
+          - Contacto directo con el cliente para validar las entregas, hacer seguimiento de las pruebas y resolver incidencias.
+          - Desarrollo de backends en Node.js para juegos de slot.
+          - Frontend de 99 Royale, juego de slot multijugador, con componentes reutilizables en JavaScript.
+          - Soporte técnico a clientes, con seguimiento y resolución de incidencias.
+
+  - company:
+      name: redk - The CRM solutions company
+      location: Sevilla, España
+      overview: Consultora de soluciones CRM y ERP (Zendesk, SugarCRM, Openbravo). 15 años en la empresa.
+    positions:
+      - designation: Desarrolladora Full Stack
+        start: Ene 2018
+        end: Ago 2021
+        responsibilities:
+          - APIs en Node.js sobre AWS (API Gateway, SQS, Lambda) para integrar Zendesk con telefonía (RingCentral), chatbot (Mindsay), WhatsApp, Twilio (SMS) y APIs externas.
+          - Análisis y desarrollo de apps para Zendesk con ZAF (Zendesk App Framework) y Bootstrap.
+          - Integración de Zendesk con sistemas externos (CRM, ERP, etc.).
+
+      - designation: QA Manager
+        start: Jul 2017
+        end: Ago 2021
+        responsibilities:
+          - Escenarios en Cucumber y tests manuales para UATs.
+          - Administración de SonarCloud (quality profiles y reglas) y formación al equipo.
+          - Code reviews de pull requests y mentoring del equipo en el proceso.
+          - Tests unitarios con PHPUnit y Jest; mentoring en clean code y refactoring.
+          - Control de calidad de la documentación técnica de los proyectos.
+
+      - designation: Consultora SugarCRM
+        start: Jul 2015
+        end: Ago 2021
+        responsibilities:
+          - Análisis y desarrollo en SugarCRM, incluidas migraciones entre versiones.
+          - Tests unitarios con PHPUnit.
+          - Integraciones con sistemas externos mediante API REST.
+          - Integración de SugarCRM con Watson Campaign Automation a través de Scribe Online.
+
+      - designation: Consultora Openbravo ERP
+        start: Ago 2006
+        end: Jul 2015
+        responsibilities:
+          - Consultoría y desarrollo en implantaciones de Openbravo con PostgreSQL y Oracle 11g.
+          - Evolutivos modularizados en Openbravo 2.50 y Openbravo 3; desarrollo de verticales y módulos personalizados.
+          - Actualizaciones entre versiones de Openbravo y soporte a clientes.
+          - Integraciones con aplicaciones externas mediante servicios web, incluido un servicio de factura electrónica.
+          - Módulo de integración entre Openbravo y SugarCRM.

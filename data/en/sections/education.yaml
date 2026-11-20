@@ -1,0 +1,14 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+degrees:
+  - name: Technical Engineering in Computer Science (Management Information Systems)
+    icon: fa-graduation-cap
+    institution:
+      name: Universidad de Sevilla
+      url: "https://www.us.es"

@@ -1,0 +1,36 @@
+section:
+  name: Habilidades
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+  - name: Lenguajes
+    summary: "JavaScript para desarrollo de integraciones, APIs REST, y backends para juegos de slot. También he trabajado con Java, PHP y en la actualidad ampliando conocimientos de desarrollo en Python"
+
+  - name: APIs e integraciones
+    summary: "He trabajado en proyectos de integración de plataformas CRM, ERP, helpdesk con sistemas externos como Twilio o herramientas de marketing. Durante mi paso por g.games he desarrollado APIs REST para integrar los juegos con las APIs de operadores externos"
+
+  - name: Plataformas CRM y ERP
+    summary: "Zendesk (apps ZAF, integraciones), SugarCRM (desarrollo, migraciones de versión, Scribe Online) y Openbravo ERP (módulos, verticales, actualizaciones)"
+
+  - name: Node.js
+    summary: "Desarrollo de la parte backend para juegos de slot así como APIs REST e integraciones con terceros"
+    url: "https://nodejs.org/"
+
+  - name: AWS Serverless
+    summary: "Integraciones orientadas a eventos con API Gateway, SQS y Lambda que conectan Zendesk con telefonía, chatbots, WhatsApp y proveedores de SMS"
+    url: "https://aws.amazon.com/serverless/"
+
+  - name: Testing y QA
+    summary: "Tests en backend con Mocha y Jest y Selenium para la parte frontend. También he trabajado con Cucumber y SonarCloud"
+
+  - name: Git
+    summary: "Experiencia en el uso de Git y GitHub para el control de versiones en proyectos colaborativos, incluyendo creación y revisión de pull requests"
+
+  - name: CI/CD
+    summary: "Uso de GitHub Actions, Jenkins para pipelines de build, automatización de tests y despliegue"
+
+  - name: Bases de datos
+    summary: "PostgreSQL, Oracle, MySQL y DynamoDB"

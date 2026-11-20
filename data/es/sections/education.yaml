@@ -1,0 +1,14 @@
+section:
+  name: Formación
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+degrees:
+  - name: Ingeniería Técnica en Informática de Gestión
+    icon: fa-graduation-cap
+    institution:
+      name: Universidad de Sevilla
+      url: "https://www.us.es"
