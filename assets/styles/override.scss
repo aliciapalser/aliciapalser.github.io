@@ -50,3 +50,17 @@ html[data-theme='dark'] .skills-section .card ul {
   color: get-dark-color('text-color');
 }
 
+// Experience timeline on phones: the numbered circle (padding 13px 20px) is wider
+// than its col-1 column, so it overflows and causes horizontal scroll.
+// Make it a fixed-size circle that fits the column.
+@include media('<=small') {
+  .experiences-section .circle {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+}
