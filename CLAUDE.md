@@ -10,3 +10,6 @@ Source code is in data/es, data/en is the translated content
 
 ## Static files
 PDF files for CV are in static/files with their original name
+
+## Mobile view
+After visual/CSS changes, check the phone layout with the `/mobile-check` skill (.claude/skills/mobile-check)
