@@ -4,3 +4,49 @@
 .home {
   height: 50vh;
 }
+
+// Compact skill cards (less padding around the text, better on mobile).
+.skills-section .card {
+  // The theme sets height: 100% plus 0.5rem top/bottom margins, which leaves
+  // 1rem of empty space at the bottom of every card.
+  height: calc(100% - 1rem);
+
+  .card-head {
+    padding: 0.5rem 0.75rem 0;
+
+    .card-title {
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  .card-body {
+    padding: 0.4rem 0.75rem 0.5rem !important; // overrides the theme's pt-1/pb-1 utilities
+  }
+
+  // The theme wraps the summary in <p>; a Markdown list inside it leaves empty
+  // paragraphs (one of them without class) that add extra margin around the list.
+  .card-body > p:empty {
+    display: none;
+  }
+
+  .card-body > :last-child,
+  .card-text,
+  ul {
+    margin-bottom: 0;
+  }
+
+  ul {
+    padding-left: 1.1rem;
+    // Same color as plain-text summaries (the theme only colors <p>).
+    color: get-light-color('text-color');
+  }
+
+  li + li {
+    margin-top: 0.2rem;
+  }
+}
+
+html[data-theme='dark'] .skills-section .card ul {
+  color: get-dark-color('text-color');
+}
+
