@@ -6,14 +6,15 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-designation: Software Developer at g.games
+designation: Full Stack Developer
 
 summary: |
-  I am a software developer with extensive experience in **backend development with Node**, with a strong focus on best practices and testing.  
-  I have worked on integration projects with external systems as well as on the backend of slot games.  
-  I have also carried out analysis and development on CRM and ERP platforms in other
-  languages, including Java and PHP.
+  I am a full stack developer with a versatile background and a strong specialization in **backend development with Node.js**, with a strong focus on best practices and testing.
+  Throughout my career I have worked on a wide range of projects, from **product-oriented development** to integrations with external systems, where, beyond the technical work, I took on responsibility for organizing team tasks and coordinating with the end client.
+  I have also worked on the analysis and implementation of CRM and ERP platforms using other languages, such as Java and PHP.
 
+  I am currently specializing in **agentic development** with tools such as Claude Code, where I apply my experience and focus on code quality.  
+  
 socialLinks:
   - name: Email
     icon: "fas fa-envelope"
@@ -21,9 +22,9 @@ socialLinks:
   - name: LinkedIn
     icon: "fab fa-linkedin"
     url: "https://www.linkedin.com/in/alicia-palacios-serrano/"
-  - name: GitHub
-    icon: "fab fa-github"
-    url: "https://github.com/aliciapalacios82"
+  # - name: GitHub
+  #   icon: "fab fa-github"
+  #   url: "https://github.com/aliciapalacios82"
 
 resourceLinks:
   - title: "My Resume"

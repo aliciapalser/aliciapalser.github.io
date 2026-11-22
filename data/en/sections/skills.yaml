@@ -7,30 +7,40 @@ section:
 
 skills:
   - name: Languages
-    summary: "JavaScript for integrations, REST APIs and slot game backends. I have also worked with Java and PHP, and I am currently expanding my development skills in Python"
+    summary: |
+      - JavaScript for integrations, REST APIs and slot game backends
+      - Java, PHP
+      - Python
 
-  - name: APIs & Integrations
-    summary: "I have worked on projects integrating CRM, ERP and helpdesk platforms with external systems such as Twilio or marketing tools. At g.games I have built REST APIs to integrate the games with external operators' APIs"
+  - name: AI Tools
+    summary: |
+      - Agentic development and automation of development tasks with Claude Code
 
-  - name: CRM & ERP platforms
-    summary: "Zendesk (ZAF apps, integrations), SugarCRM (development, version migrations, Scribe Online) and Openbravo ERP (modules, verticals, upgrades)"
+  - name: DevOps
+    summary: |
+      - Event-driven integrations with API Gateway, SQS and Lambda functions
+      - GitHub Actions and Jenkins in CI/CD processes (build pipelines, test automation and deployment)
+      - Docker
 
   - name: Node.js
-    summary: "Backend development for slot games, as well as REST APIs and third-party integrations"
+    summary: |
+      - Backend development for slot games
+      - REST APIs with **Express** and integrations with external third-party systems
     url: "https://nodejs.org/"
 
-  - name: AWS Serverless
-    summary: "Event-driven integrations with API Gateway, SQS and Lambda connecting Zendesk with telephony, chatbots, WhatsApp and SMS providers"
-    url: "https://aws.amazon.com/serverless/"
+  - name: Git
+    summary: |
+      - GitHub for version control in collaborative projects, including creating and reviewing pull requests
+
+  - name: APIs & Integrations
+    summary: |
+      - Integration of CRM, ERP and helpdesk platforms with external systems such as Twilio or marketing tools
+      - At g.games I have built REST APIs to integrate the games with external operators' APIs
 
   - name: Testing & QA
-    summary: "Backend testing with Mocha and Jest, and Selenium for the frontend. I have also worked with Cucumber and SonarCloud"
-
-  - name: Git
-    summary: "Experience using Git and GitHub for version control in collaborative projects, including creating and reviewing pull requests"
-
-  - name: CI/CD
-    summary: "GitHub Actions and Jenkins for build pipelines, test automation and deployment"
+    summary: |
+      - Backend testing with Mocha and Jest, and Selenium for the frontend
+      - Cucumber and SonarCloud
 
   - name: Databases
     summary: "PostgreSQL, Oracle, MySQL and DynamoDB"

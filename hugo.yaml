@@ -33,7 +33,10 @@ enableEmoji: true
 
 params:
   # TODO: add your own background and logos under assets/images/site/ and set
-  # params.background and params.logo.{main,inverted,favicon}. Theme defaults are used meanwhile.
+  # params.background and params.logo.{main,inverted}. Theme defaults are used meanwhile.
+  logo:
+    # Initials "AP" on the theme accent color; static/favicon.ico is the same image for /favicon.ico requests.
+    favicon: /images/site/favicon.png
 
   gitRepo: https://github.com/aliciapalacios82/aliciapalacios82.github.io
   gitBranch: main
