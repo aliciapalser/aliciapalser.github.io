@@ -25,7 +25,7 @@ skills:
   - name: Node.js
     summary: |
       - Desarrollo de la parte backend para juegos de slot
-      - APIs REST con **Express** e integraciones con sistema externos de terceros
+      - APIs REST con **Express** e integraciones con sistemas externos de terceros
     url: "https://nodejs.org/"
 
   - name: Git
