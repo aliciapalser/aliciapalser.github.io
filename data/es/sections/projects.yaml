@@ -20,7 +20,7 @@ buttons:
 # Ordenados del más reciente al más antiguo
 projects:
   - name: 99 Royale
-    role: Desarrolladora Frontend
+    role: Desarrolladora Frontend y Backend
     timeline: "2021 - Actualidad"
     summary: Juego de slot multijugador. Frontend construido con componentes reutilizables en JavaScript.
     tags: ["games", "javascript"]
@@ -30,6 +30,12 @@ projects:
     timeline: "2021 - Actualidad"
     summary: Backends en Node.js para juegos de slot e integraciones con APIs de plataformas de juego de terceros.
     tags: ["games", "integrations", "nodejs"]
+
+  - name: Integración con APIs de terceros
+    role: Desarrolladora Backend/Gestión de tareas
+    timeline: "2021 - Present"
+    summary: Desarrollo de APIs REST con Express y gestión de tareas en el equipo.
+    tags: ["integrations", "nodejs"]
 
   - name: Integraciones omnicanal de Zendesk en AWS
     role: Desarrolladora Full Stack
@@ -43,7 +49,7 @@ projects:
     summary: Apps personalizadas de Zendesk con Zendesk App Framework y Bootstrap, e integraciones con sistemas CRM y ERP.
     tags: ["integrations", "crm-erp", "javascript"]
 
-  - name: Programa de calidad en redk
+  - name: QA
     role: QA Manager
     timeline: "2017 - 2021"
     summary: Quality profiles en SonarCloud, revisión de pull requests, tests unitarios con Jest y PHPUnit, UATs con Cucumber y mentoring en clean code.
