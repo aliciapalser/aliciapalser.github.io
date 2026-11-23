@@ -1,0 +1,56 @@
+section:
+  name: Technologies
+  id: tech-stack
+  enable: true
+  # Between about (1) and skills (2)
+  weight: 1.5
+  showOnNavbar: false
+  template: sections/tech-stack.html
+
+# Logos in static/images/tech. darkInvert: dark logos that are inverted in dark mode.
+technologies:
+  - name: JavaScript
+    logo: /images/tech/javascript.svg
+  - name: Node.js
+    logo: /images/tech/nodejs.svg
+  - name: Express
+    logo: /images/tech/express.svg
+    darkInvert: true
+  - name: Java
+    logo: /images/tech/java.svg
+  - name: PHP
+    logo: /images/tech/php.svg
+  - name: Python
+    logo: /images/tech/python.svg
+  - name: AWS
+    logo: /images/tech/aws.svg
+    darkInvert: true
+  - name: Docker
+    logo: /images/tech/docker.svg
+  - name: GitHub
+    logo: /images/tech/github.svg
+    darkInvert: true
+  - name: GitHub Actions
+    logo: /images/tech/githubactions.svg
+  - name: Jenkins
+    logo: /images/tech/jenkins.svg
+  - name: Jest
+    logo: /images/tech/jest.svg
+  - name: Mocha
+    logo: /images/tech/mocha.svg
+  - name: Selenium
+    logo: /images/tech/selenium.svg
+  - name: Cucumber
+    logo: /images/tech/cucumber.svg
+  - name: SonarCloud
+    logo: /images/tech/sonarcloud.svg
+  - name: PostgreSQL
+    logo: /images/tech/postgresql.svg
+  - name: Oracle
+    logo: /images/tech/oracle.svg
+  - name: MySQL
+    logo: /images/tech/mysql.svg
+  - name: DynamoDB
+    logo: /images/tech/dynamodb.svg
+  - name: Claude
+    logo: /images/tech/claude.svg

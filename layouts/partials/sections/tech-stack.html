@@ -1,0 +1,19 @@
+{{/* Infinite scrolling strip of technology logos (data/<lang>/sections/tech-stack.yaml).
+     The list is rendered twice so the CSS animation (translateX -50%) loops seamlessly. */}}
+<div class="container-fluid anchor tech-stack-section" id="{{ .section.id }}">
+  <h2 class="visually-hidden">{{ .section.name }}</h2>
+  <div class="tech-marquee">
+    <ul class="tech-track">
+      {{ range $copy := slice 1 2 }}
+        {{ range $.technologies }}
+          <li class="tech-item"{{ if eq $copy 2 }} aria-hidden="true"{{ end }}>
+            {{/* Empty alt: the name is shown as text right next to the logo. */}}
+            <img src="{{ .logo | relURL }}" alt="" class="{{ if .darkInvert }}dark-invert{{ end }}"
+                 width="32" height="32" loading="lazy" />
+            <span class="tech-name">{{ .name }}</span>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</div>

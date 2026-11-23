@@ -20,7 +20,7 @@ buttons:
 # Ordered from newest to oldest
 projects:
   - name: 99 Royale
-    role: Frontend Developer
+    role: Frontend and backend developer
     timeline: "2021 - Present"
     summary: Multiplayer slot game. Frontend built from reusable JavaScript components.
     tags: ["games", "javascript"]
@@ -30,6 +30,12 @@ projects:
     timeline: "2021 - Present"
     summary: Node.js backends for slot games and integrations with third-party game platform APIs.
     tags: ["games", "integrations", "nodejs"]
+
+  - name: Third-party API integrations
+    role: Backend Developer/Task Manager
+    timeline: "2021 - Present"
+    summary: REST API development with Express and team task management.
+    tags: ["integrations", "nodejs"]
 
   - name: Zendesk omnichannel integrations on AWS
     role: Full Stack Developer
@@ -43,7 +49,7 @@ projects:
     summary: Custom Zendesk apps built with the Zendesk App Framework and Bootstrap, plus integrations with CRM and ERP systems.
     tags: ["integrations", "crm-erp", "javascript"]
 
-  - name: Quality programme at redk
+  - name: QA
     role: QA Manager
     timeline: "2017 - 2021"
     summary: SonarCloud quality profiles, pull request reviews, unit testing with Jest and PHPUnit, Cucumber UATs and clean code mentoring.

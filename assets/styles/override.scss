@@ -64,3 +64,95 @@ html[data-theme='dark'] .skills-section .card ul {
     flex-shrink: 0;
   }
 }
+
+// Technology logos strip between About and Skills (layouts/partials/sections/tech-stack.html).
+.tech-stack-section {
+  padding: 1.5rem 0;
+}
+
+.tech-marquee {
+  overflow: hidden;
+  width: 100%;
+  // Fade the logos in and out at both edges.
+  mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+}
+
+.tech-track {
+  display: flex;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  animation: tech-scroll 45s linear infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+// Margin instead of gap so both copies of the list are exactly the same width
+// and -50% lands on the start of the second copy.
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 2.5rem;
+  white-space: nowrap;
+
+  img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+
+  .tech-name {
+    font-size: 1rem;
+    color: get-light-color('text-color');
+  }
+}
+
+html[data-theme='dark'] .tech-item .tech-name {
+  color: get-dark-color('text-color');
+}
+
+@keyframes tech-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@include media('<=small') {
+  .tech-item {
+    margin-right: 1.75rem;
+
+    img {
+      width: 26px;
+      height: 26px;
+    }
+
+    .tech-name {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// Black/dark-text logos: flip lightness but keep brand hues (AWS orange stays orange).
+html[data-theme='dark'] .tech-item img.dark-invert {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tech-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    row-gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .tech-item[aria-hidden='true'] {
+    display: none;
+  }
+}
