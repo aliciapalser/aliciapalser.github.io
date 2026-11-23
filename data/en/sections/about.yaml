@@ -22,9 +22,9 @@ socialLinks:
   - name: LinkedIn
     icon: "fab fa-linkedin"
     url: "https://www.linkedin.com/in/alicia-palacios-serrano/"
-  # - name: GitHub
-  #   icon: "fab fa-github"
-  #   url: "https://github.com/aliciapalacios82"
+  - name: GitHub
+    icon: "fab fa-github"
+    url: "https://github.com/aliciapalser"
 
 resourceLinks:
   - title: "My Resume"
