@@ -1,4 +1,4 @@
-baseURL: https://aliciapalacios82.github.io/
+baseURL: https://aliciapalser.github.io/
 
 locale: en-us
 title: "Alicia Palacios Serrano"
@@ -38,7 +38,7 @@ params:
     # Initials "AP" on the theme accent color; static/favicon.ico is the same image for /favicon.ico requests.
     favicon: /images/site/favicon.png
 
-  gitRepo: https://github.com/aliciapalacios82/aliciapalacios82.github.io
+  gitRepo: https://github.com/aliciapalser/aliciapalser.github.io
   gitBranch: main
 
   topNavbar:

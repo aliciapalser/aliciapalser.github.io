@@ -2,7 +2,7 @@
 
 Portfolio personal bilingüe (inglés / español) hecho con [Hugo](https://gohugo.io/) y el
 tema [Toha](https://github.com/hugo-toha/toha), publicado en
-https://aliciapalacios82.github.io/
+https://aliciapalser.github.io/
 
 ## Requisitos
 

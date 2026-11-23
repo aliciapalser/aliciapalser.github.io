@@ -1,4 +1,4 @@
-module github.com/aliciapalacios82/aliciapalacios82.github.io
+module github.com/aliciapalser/aliciapalser.github.io
 
 go 1.27.4
 
